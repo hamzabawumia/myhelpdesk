@@ -1,0 +1,122 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2026-01-18 21:23:58.309523",
+ "default_view": "List",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "your_name",
+  "phone_number",
+  "email",
+  "title_or_summary_of_the_issue",
+  "category",
+  "priority",
+  "description",
+  "screen_shot",
+  "company_name",
+  "math_question",
+  "math_answer",
+  "math_captcha"
+ ],
+ "fields": [
+  {
+   "fieldname": "your_name",
+   "fieldtype": "Data",
+   "label": "Your Name"
+  },
+  {
+   "fieldname": "phone_number",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Phone number",
+   "reqd": 1
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "math_question",
+   "fieldtype": "Data",
+   "label": "Math Question"
+  },
+  {
+   "fieldname": "math_answer",
+   "fieldtype": "Data",
+   "label": "Math Answer"
+  },
+  {
+   "fieldname": "math_captcha",
+   "fieldtype": "Int",
+   "hidden": 1,
+   "label": "Math Captcha"
+  },
+  {
+   "fieldname": "title_or_summary_of_the_issue",
+   "fieldtype": "Data",
+   "label": "Title or Summary of the Issue"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "label": "Full Description"
+  },
+  {
+   "fieldname": "screen_shot",
+   "fieldtype": "Attach",
+   "label": "Upload Screen Shot "
+  },
+  {
+   "fieldname": "category",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Category",
+   "options": "Network Issue(s)\nFeature Request\nSoftware Error(s)\nSuggestion(s)\nSystem is Slow\nOthers",
+   "reqd": 1
+  },
+  {
+   "fieldname": "company_name",
+   "fieldtype": "Data",
+   "label": "Your Company / Organization Name"
+  },
+  {
+   "fieldname": "priority",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Priority",
+   "options": "Low Priority\nMedium Priority\nHigh Priority",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-01-18 22:46:42.777676",
+ "modified_by": "Administrator",
+ "module": "Myhelpdesk",
+ "name": "My Help Desk Tickets",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "show_title_field_in_link": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "title_or_summary_of_the_issue"
+}
