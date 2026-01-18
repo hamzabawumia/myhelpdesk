@@ -18,7 +18,7 @@
  "list_columns": [],
  "login_required": 0,
  "max_attachment_size": 0,
- "modified": "2026-01-18 22:24:21.247462",
+ "modified": "2026-01-18 22:52:50.247129",
  "modified_by": "Administrator",
  "module": "Myhelpdesk",
  "name": "my-help-desk-ticket",
@@ -28,7 +28,7 @@
  "show_attachments": 0,
  "show_list": 0,
  "show_sidebar": 0,
- "title": "My Help Desk Ticket",
+ "title": "Help Desk",
  "web_form_fields": [
   {
    "allow_read_on_all_link_options": 0,
