@@ -17,7 +17,8 @@
   "company_name",
   "math_question",
   "math_answer",
-  "math_captcha"
+  "math_captcha",
+  "comments"
  ],
  "fields": [
   {
@@ -56,7 +57,8 @@
   {
    "fieldname": "title_or_summary_of_the_issue",
    "fieldtype": "Data",
-   "label": "Title or Summary of the Issue"
+   "label": "Title or Summary of the Issue",
+   "reqd": 1
   },
   {
    "fieldname": "description",
@@ -71,7 +73,6 @@
   {
    "fieldname": "category",
    "fieldtype": "Select",
-   "in_list_view": 1,
    "in_standard_filter": 1,
    "label": "Category",
    "options": "Network Issue(s)\nFeature Request\nSoftware Error(s)\nSuggestion(s)\nSystem is Slow\nOthers",
@@ -80,21 +81,28 @@
   {
    "fieldname": "company_name",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Your Company / Organization Name"
   },
   {
    "fieldname": "priority",
    "fieldtype": "Select",
-   "in_list_view": 1,
    "in_standard_filter": 1,
    "label": "Priority",
    "options": "Low Priority\nMedium Priority\nHigh Priority",
    "reqd": 1
+  },
+  {
+   "fieldname": "comments",
+   "fieldtype": "Table",
+   "label": "Comments",
+   "options": "helpdeskcomments"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-01-18 22:46:42.777676",
+ "modified": "2026-01-19 20:09:45.868339",
  "modified_by": "Administrator",
  "module": "Myhelpdesk",
  "name": "My Help Desk Tickets",
