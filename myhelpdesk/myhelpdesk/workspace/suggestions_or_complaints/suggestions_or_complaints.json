@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"id\":\"NKskLFuTlJ\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Suggestions or Complaints</span>\",\"col\":12}},{\"id\":\"IBBQS40Si0\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Suggestion / Complaints Box\",\"col\":3}}]",
+ "content": "[{\"id\":\"NKskLFuTlJ\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Suggestions or Complaints</span>\",\"col\":12}},{\"id\":\"Q1UIOwt7us\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Suggestion / Complaints Box\",\"col\":3}}]",
  "creation": "2026-01-24 15:04:26.488111",
  "custom_blocks": [],
  "docstatus": 0,
@@ -12,7 +12,7 @@
  "is_hidden": 0,
  "label": "Suggestions or Complaints",
  "links": [],
- "modified": "2026-01-24 15:07:00.720195",
+ "modified": "2026-01-24 15:30:16.918093",
  "modified_by": "Administrator",
  "module": "Myhelpdesk",
  "name": "Suggestions or Complaints",
@@ -26,11 +26,10 @@
  "shortcuts": [
   {
    "color": "Grey",
-   "doc_view": "New",
+   "doc_view": "List",
    "label": "Suggestion / Complaints Box",
-   "link_to": "My Help Desk Tickets",
-   "stats_filter": "[]",
-   "type": "DocType"
+   "type": "URL",
+   "url": "/my-help-desk-ticket/new"
   }
  ],
  "title": "Suggestions or Complaints"
