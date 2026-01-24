@@ -75,7 +75,7 @@
    "fieldtype": "Select",
    "in_standard_filter": 1,
    "label": "Category",
-   "options": "Network Issue(s)\nFeature Request\nSoftware Error(s)\nSuggestion(s)\nSystem is Slow\nOthers",
+   "options": "Suggestion(s)\nComplaint(s)\nNetwork Issue(s)\nFeature Request\nSoftware Error(s)\nSystem is Slow\nOthers",
    "reqd": 1
   },
   {
@@ -102,7 +102,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-01-19 20:09:45.868339",
+ "modified": "2026-01-24 14:30:38.409586",
  "modified_by": "Administrator",
  "module": "Myhelpdesk",
  "name": "My Help Desk Tickets",

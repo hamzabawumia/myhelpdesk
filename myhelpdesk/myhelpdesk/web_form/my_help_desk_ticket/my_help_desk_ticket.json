@@ -18,7 +18,7 @@
  "list_columns": [],
  "login_required": 0,
  "max_attachment_size": 0,
- "modified": "2026-01-18 22:52:50.247129",
+ "modified": "2026-01-24 14:32:24.064838",
  "modified_by": "Administrator",
  "module": "Myhelpdesk",
  "name": "my-help-desk-ticket",
@@ -66,7 +66,7 @@
    "max_value": 0,
    "precision": "",
    "read_only": 0,
-   "reqd": 0,
+   "reqd": 1,
    "show_in_filter": 0
   },
   {
@@ -90,7 +90,7 @@
    "label": "Category",
    "max_length": 0,
    "max_value": 0,
-   "options": "Network Issue(s)\nFeature Request\nSoftware Error(s)\nSuggestion(s)\nSystem is Slow\nOthers",
+   "options": "Suggestion(s)\nComplaint(s)\nNetwork Issue(s)\nFeature Request\nSoftware Error(s)\nSystem is Slow\nOthers",
    "precision": "",
    "read_only": 0,
    "reqd": 1,
